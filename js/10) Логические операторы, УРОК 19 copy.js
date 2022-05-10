@@ -134,4 +134,4 @@ const nuggets12 = 2;
 if (hamburger12 && cola12 || fries12 === 3 && nuggets12) {
    console.log('Done!')
 }
-console.log(hamburger12 && cola12 || fries12 === 3 && nuggets12);
+console.log(hamburger12 && cola12 || fries12 === 3 && nuggets12); // FALSE
