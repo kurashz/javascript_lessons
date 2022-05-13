@@ -27,7 +27,7 @@ const personalMovieDB = {
     privat: false
 };
 
-start: for (let i = 0; i < numberOfFilms; i++) {
+ for (let i = 0; i < numberOfFilms; i++) {
     const a = prompt('Введите название фильма: ', ''), b = prompt('На сколько вы оцените фильм?');  
         if(a != null && b!= null && a != '' && b != '' && a.length < 10){
             personalMovieDB.movies[a] = b;
