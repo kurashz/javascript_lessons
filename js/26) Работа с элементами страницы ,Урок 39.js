@@ -22,5 +22,5 @@ console.log(circles);
 
 const hearts = document.querySelectorAll('.heart');
 
-const oneHeart = document.querySelector('.heart'); // Первый элемент на странице (див, селектор и тд)
+const oneHeart = document.querySelector('.heart'); // Первый элемент на странице (див, селектор и тд    )
 console.log(oneHeart);
