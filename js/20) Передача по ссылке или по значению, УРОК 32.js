@@ -1,22 +1,22 @@
 "use sctrict";
 
-// let a = 5, b = a;
-// b = b + 5;
-// console.log(b);
-// console.log(a);
+let a = 5, b = a;
+b = b + 5;
+console.log(b);
+console.log(a);
 
-// const obj = {
-//     a: b,
-//     b: 1
-// };
-// console.log(obj);
+const obj = {
+    a: b,
+    b: 1
+};
+console.log(obj);
 
-// const copy = obj; // Передает ссылку на уже сущетсвующий объет
+const copy = obj; // Передает ссылку на уже сущетсвующий объет
 
-// copy.a = 10; // Модифицируем не новый COPY, А старый OBJ. Таким образом не может создать копию объекта и изменить значение внутри него
+copy.a = 10; // Модифицируем не новый COPY, А старый OBJ. Таким образом не может создать копию объекта и изменить значение внутри него
 
-// console.log(copy);
-// console.log(obj);
+console.log(copy);
+console.log(obj);
 
 // Создание копий Объектов
 
